@@ -1,0 +1,122 @@
+@charset "UFT-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/pexels-ollie-craig-10067358.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+}
+header{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 40px;
+    margin: 280px auto;
+    width: 500px;
+    gap: 20px;
+    color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.459);
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+main{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+    max-width: 300px;
+}
+.comeco{
+    display: block;
+    background-color: rgba(137, 43, 226, 0.76);
+    padding: 10px;
+    width: 800px;
+    margin: 10px auto;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.329);
+    max-width: 280px;
+}
+.comeco > h1{
+    font-weight: normal;
+    font-size: small;
+}
+.meio{
+    background-color: rgba(255, 255, 255, 0.733);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.349);
+}
+.ajust1{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    background-color: transparent;
+    margin: 10px auto;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+}
+.ajust{
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    width: 92%;
+    margin: 10px auto;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.363);
+}
+main > section > button{
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #03C200, #40CC3D);
+    padding: 10px;
+}
+.fim{
+    display: block;
+    padding: 10px;
+}
+.fim > h1{
+    text-align: center;
+    font-size: smaller;
+    font-weight: normal;
+}
+.fim > h1 > a {
+    text-decoration: none;
+}
+.ajust:focus{
+    border: transparent;
+    border-bottom:1px solid #03C200;
+    transition: 1s ease-in-out;
+}
+.ajust1:focus{
+    border: transparent;
+    border-bottom:1px solid #03C200;
+    transition: 1s ease-in-out;
+}
+main > section > button:hover{
+    background-image: linear-gradient(to right, #ffffff, #ffffff5d);
+    color: #03C200;
+    transition: 1s ease-in-out;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.322);
+}
+.fim > h1 > a:hover {
+    text-decoration: underline;
+    color: rgb(241, 0, 0);
+    transition: 1s ease-in-out;
+}
